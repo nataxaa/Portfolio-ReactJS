@@ -7,7 +7,7 @@ export const GlobalStyled = createGlobalStyle`
     --background: #0B0B09 ;
     --base-subtitle: #5CD6FF ;
     --base-text: #FBFEFB ;
-    --button-base: #003566
+    --button-base: #d90429;
 }
 
 *{
@@ -15,13 +15,20 @@ export const GlobalStyled = createGlobalStyle`
     padding: 0 ;
 }
 
+html{
+        scroll-behavior:smooth;
+        max-width:1366px ;
+    }
 
 body{
     font-family: 'Roboto Condensed', sans-serif;
     background-color:var(--background) ;
-    color: var(--base-text) ;
+    color: #caf0f8 ;
+    height:100vh ;
     h1{
         font-family: 'Bebas Neue', cursive;
+        color: #023e8a ;
+        font-size:40px ;
     }
 }
 

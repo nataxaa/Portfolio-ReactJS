@@ -2,7 +2,7 @@
   <img alt="Barber" title="#delicinha" src="github/logo.png" width="150px" borderRadius="20px" />
 </h1>
 
-# Coffee Delivery
+# Portfólio
 
 <p align="center">
   <a href="https://github.com/nataxaa">

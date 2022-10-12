@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Container } from "./style";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import {BsBoxArrowUpRight} from 'react-icons/bs'
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -17,8 +18,8 @@ export function Projetos(){
     console.log(user)
 
     return(
-        <Container>
-            <h1>Meus Projetos</h1>
+        <Container id="project">
+            <h1>Alguns Projetos</h1>
             <Swiper
             slidesPerView={4}
             spaceBetween={30}
@@ -32,6 +33,7 @@ export function Projetos(){
                 {user.map((props:any)=>(
                 <SwiperSlide>
                     <div className="style-swiper">
+                        <a href={props.link_repositorio}><BsBoxArrowUpRight className="icon"/>github</a>
                         <img src={props.imagem} alt="" />    
                         <p>{props?.nome}</p>
                     </div>

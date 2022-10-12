@@ -9,7 +9,7 @@ margin: 0 12rem ;
 .swiper-slide img {
   display: block;
   width: auto ;
-  height:4rem ;
+  height:5rem ;
   object-fit: cover;
   margin-bottom:1rem ;
   align-items:center ;
@@ -59,6 +59,23 @@ div.style-swiper{
         :hover{
             opacity:0.9 ;
         }
+    }
+    a{
+      position:relative ;
+
+      top:-4.5rem ;
+      right:-4rem ;
+      outline:none ;
+      text-decoration:none ;
+      color: white ;
+      cursor: pointer;
+      :hover{
+        opacity:0.7 ;
+      }
+    }
+    .icon{
+      font-size:13px ;
+      margin-right:3px ;
     }
 }
 

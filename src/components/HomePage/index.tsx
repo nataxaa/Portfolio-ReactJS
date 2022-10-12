@@ -15,19 +15,19 @@ import {TbBrandNextjs} from 'react-icons/tb'
 export function HomePage(){
     return(
             
-        <Container>
+        <Container id="home">
             <div className="links">
-                <span><AiFillHome/></span>
-                <span><FaBuilding/></span>
-                <span><SiBookstack/></span>
-                <span><IoMdContact/></span>
+                <a href="#home"><AiFillHome/></a>
+                <a href="#about"><FaBuilding/></a>
+                <a href="#project"><SiBookstack/></a>
+                <a href="#contact"><IoMdContact/></a>
             </div>
             <div>
                 <h1>Natan Xavier</h1>
                 <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio tenetur sunt dolores eveniet optio, labore obcaecati,
-                aperiam harum ipsum velit est fugit culpa maxime iusto neque odit iste soluta laudantium!
+                Olá, Bem vindo ao meu portfólio. Sou desenvolvedor front-end especialista em ReactJS,
+                utilizo TypeScript nos meus projetos e sempre buscando conhecimento. Tenho buscando agregar 
+                mais conhecimento sobre NodeJS.
                 </p>
                 <p className="principais">Principais Tecnologias</p>
                 <div className="tecnologias">

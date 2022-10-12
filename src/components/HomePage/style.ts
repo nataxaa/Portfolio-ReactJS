@@ -15,7 +15,7 @@ div.links{
     position:fixed ;
     left:6rem ;
     gap:20px;
-    span{
+    a{
         padding:10px ;
         background-color:var(--button-base) ;
         border-radius:1000px ;
@@ -23,6 +23,12 @@ div.links{
         align-items:center ;
         font-size:27px ;
         cursor:pointer ;
+        color:white ;
+        transition:0.3s ;
+        :hover{
+            margin: 5px 0px ;
+            opacity:0.8 ;
+        }
     }
 }
 

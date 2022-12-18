@@ -27,7 +27,7 @@ body{
     height:100vh ;
     h1{
         font-family: 'Bebas Neue', cursive;
-        color: #023e8a ;
+        color: #FF8200 ;
         font-size:40px ;
     }
 }

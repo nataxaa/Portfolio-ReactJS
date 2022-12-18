@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import img from '../../images/1.jpg'
 
 
 export const Container = styled.div`
@@ -6,28 +7,36 @@ export const Container = styled.div`
 display: flex ;
 align-items:center ;
 gap:5rem;
-margin:0rem 0rem 0rem 17rem  ;
+margin:0rem 0rem 0rem 0rem  ;
 height:100vh ;
+background-image: url(${img}) ;
+background-position:center;
+background-size:100% ;
+
+div.informartion{
+    display:flex ;
+    margin: 0 auto 4rem;
+    gap:3rem;
+}
 
 div.links{
     display:flex ;
-    flex-direction:column ;
     position:fixed ;
-    left:6rem ;
+    left:30rem ;
+    top:2rem ;
     gap:20px;
+   
     a{
-        padding:10px ;
-        background-color:var(--button-base) ;
-        border-radius:1000px ;
         display:flex ;
+        text-decoration:none ;
         align-items:center ;
-        font-size:27px ;
+        font-size:20px ;
         cursor:pointer ;
         color:white ;
         transition:0.3s ;
         :hover{
-            margin: 5px 0px ;
-            opacity:0.8 ;
+            border-bottom:1px solid #FFF ;
+            margin: 0px 4px ;
         }
     }
 }

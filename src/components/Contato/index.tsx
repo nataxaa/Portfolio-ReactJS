@@ -1,10 +1,19 @@
 import { Container } from "./style";
 import {AiFillLinkedin, AiFillGithub, AiOutlineWhatsApp} from 'react-icons/ai'
+import { useEffect } from "react";
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 export function Contato(){
+
+    
+    useEffect(()=>{
+        Aos.init({duration: 1200})
+    })
+
     return(
         <Container id="contact">
-            <h1>Contato</h1>
+            <h1 data-aos='fade-left'>Contato</h1>
             <div className="contact">
                 <input type="text" placeholder="Digite seu email"/>
                 <input type="text" placeholder="Digite o Assunto"/>
